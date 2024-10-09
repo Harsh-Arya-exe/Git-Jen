@@ -6,7 +6,7 @@ people.pop('Jenny')
 print("3. Dictionary after removing 'Jenny':",people)
 students = list(people.keys())
 students.sort()
-
+#This is a comment which was changed
 new_people = dict()
 for i in students:
     new_people[i] = people[i]
